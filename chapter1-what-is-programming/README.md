@@ -118,4 +118,4 @@ Long long ago, 有一个叫张三的人，是一个木匠，老本行是做家�
 
 ### Notes
 
-<a name="ref1"></a>[1] 关于语言词汇和语法上的详细说明可参考[程序的基本概念-自然语言和形式语言](http://songjinshan.com/akabook/zh/intro.html#intro-naturalformallang)
+<a name="ref1">[1]</a> 关于语言词汇和语法上的详细说明可参考[程序的基本概念-自然语言和形式语言](http://songjinshan.com/akabook/zh/intro.html#intro-naturalformallang)
