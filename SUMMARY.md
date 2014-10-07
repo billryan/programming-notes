@@ -9,6 +9,9 @@
    * [工程和单个文件的关系](chapter4-advanced-programming-part2/projects.md)
 * [第五章-编程语言](chapter5-programming-languages/README.md)
 * [第六章-编程方法论杂谈](chapter6-useful-tools/README.md)
+   * [提升效率](chapter6-useful-tools/improve-efficiency.md)
+   * [好习惯](chapter6-useful-tools/good-habits.md)
+   * [编程开发](chapter6-useful-tools/ide-vs-terminal.md)
 * [第七章-教材推荐及其它](chapter7-textbooks/README.md)
    * [数据结构与算法类](chapter7-textbooks/algo-data-struct.md)
    * [C](chapter7-textbooks/c-programming.md)
@@ -21,6 +24,6 @@
    * [Web-后端](chapter7-textbooks/web-.md)
    * [机器学习](chapter7-textbooks/machine-learning.md)
    * [Linux](chapter7-textbooks/linux.md)
-   * [Misc](chapter7-textbooks/misc.md)
    * [GUI](chapter7-textbooks/gui.md)
+   * [Misc](chapter7-textbooks/misc.md)
 

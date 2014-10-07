@@ -12,8 +12,6 @@
 -   [酷壳](http://coolshell.cn)享受编程和技术带来的快乐
 -   [Linux C一站式编程](http://learn.akae.cn)不要被书名给误导了，其实有很大一部分与Linux没有直接的联系，不过第三部分与Linux有较多联系
 -   [编程新手真言](http://xisofts.sinaapp.com)
--   [计算机专区](http://club.topsage.com) 资料特别多
-- [Library Genesis](http://libgen.org/)-一些下载不到的英文原版教材这里可以下载到，缺点是速度很慢，用国外的VPS也许能好点
 - [shell909090/slides-一些很不错的分享](https://github.com/shell909090/slides)
 -   …待完善
 

@@ -21,7 +21,3 @@ An introductory level course in MIT, 6.00.1x is an introduction to computer scie
 ### [Introduction to Computational Thinking and Data Science | edX.org](https://www.edx.org/course/mitx/mitx-6-00-2x-introduction-computational-2836#.VDKI23WSzH4)
 
 6.00.2x is an introduction to using computation to understand real-world phenomena.
-
-
-
-
