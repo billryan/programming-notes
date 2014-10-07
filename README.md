@@ -1,6 +1,6 @@
 # 前言
 
-弹指之间，从我开始接触编程至今已五年有余，从大一的懵懂少年到现在对计算机编程的一知半解,其中经历的酸甜苦辣实在是太多太多，不是一两句话就能说清楚的，这本小书在某种程度上也可以认为是我在学习计算机编程过程中的一些笔记。在线阅读页面见[计算机编程导论之FAQ](http://billryan.gitbooks.io/programming-notes/)，gitbook大法好！
+弹指之间，从我开始接触编程至今已五年有余，从大一的懵懂少年到现在对计算机编程的一知半解,其中经历的酸甜苦辣实在是太多太多，不是一两句话就能说清楚的，这本小书在某种程度上也可以认为是我在学习计算机编程过程中的一些笔记。在线阅读页面见[计算机编程导论之FAQ](http://billryan.gitbooks.io/programming-notes/)，在线托管网址见 [billryan/programming-notes](https://github.com/billryan/programming-notes)，gitbook/github 大法好！
 
 ## 简介
 
@@ -39,6 +39,7 @@
 FAQ——Frequently Asked Questions，也就是常见问题解答。这玩意儿通常是一些所谓的高手、前辈和公司的support为了节省回答新手的大量简单重复问题所耗费的时间精力而采用的一种手法。一旦完成，对于问与被问双方都轻松省事，效率甚高，实在是居家旅行杀人越货之必备良药。
 
 ### 鸣谢
+
 <dl>
   <dt>Blue Auris</dt>
   <dd>中文昵称：碧蓝右耳，本书的原材料创作者，前言中提到的 C/C++ FAQ 正是出自他之手，我只是做了大量的组织和整合。可以说，没有他的 C/C++ FAQ 就没有这个合辑，谨在此致以崇高的敬意！</dd>
@@ -53,3 +54,9 @@ FAQ——Frequently Asked Questions，也就是常见问题解答。这玩意儿
 ### License(许可证)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />如无特殊说明，本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+### Contribution(贡献)
+
+[billryan/programming-notes](https://github.com/billryan/programming-notes)
+
+Pull requests or issues are both welcome!
