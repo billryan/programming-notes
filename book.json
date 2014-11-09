@@ -1,3 +1,10 @@
 {
-    "plugins": ["exercises"]
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "prog-notes"
+        }
+    }
 }
