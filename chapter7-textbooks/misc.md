@@ -13,18 +13,8 @@
 -   [Linux C一站式编程](http://learn.akae.cn)不要被书名给误导了，其实有很大一部分与Linux没有直接的联系，不过第三部分与Linux有较多联系
 -   [编程新手真言](http://xisofts.sinaapp.com)
 - [shell909090/slides-一些很不错的分享](https://github.com/shell909090/slides)
+- [Beginner's Guide to Programming - guidetoprogramming.com](http://www.guidetoprogramming.com/joomla153/)
+- [lambda算子简介1.a - 负暄琐话 - 博客频道 - CSDN.NET](http://blog.csdn.net/g9yuayon/article/details/759778)
 -   …待完善
 
 ### Notes
-
-* * * * *
-
-返回主目录--\>[ 计算机编程导论之FAQ](Introduction to Programming(简体中文) "wikilink")
-
-[1] Martin Richards “Data Structures and Algorithms” Lecture notes in Computer Laboratory University of Cambridge (October 11, 2001)
-
-[2] 本节部分内容引自http://baike.baidu.com/view/1583090.htm
-
-[3] 一篇介绍OI的文章 <http://boj.5d6d.com/thread-1656-1-1.html>
-
-[4] 西电开源社区的github <https://github.com/xdlinux>
