@@ -28,5 +28,5 @@
    * [机器学习](chapter7-textbooks/machine-learning.md)
    * [Linux](chapter7-textbooks/linux.md)
    * [GUI](chapter7-textbooks/gui.md)
-   * [Misc](chapter7-textbooks/misc.md)
+   * [杂项](chapter7-textbooks/misc.md)
 

@@ -9,3 +9,4 @@
 ## 相关网站
 
 * [啄木鸟社区Wiki](http://wiki.woodpecker.org.cn/moin/) - 国内一个关于Python介绍及相关学习非常全面的一个网站。
+* [优秀Python学习资源收集汇总 - Alexia(minmin)](http://www.cnblogs.com/lanxuezaipiao/p/3543658.html)
