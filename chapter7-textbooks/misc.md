@@ -15,6 +15,7 @@
 * [Learn by Doing - Code School](https://www.codeschool.com/) - 在线编程学习网站，Web开发和iOS方面的教程较多
 * [Learn to code | Codecademy](http://www.codecademy.com/) - 交互式的编程学习，和codeschool类似，但大多为免费，内容简单
 * [老齐的技术资料](https://github.com/qiwsir/ITArticles) - 涵盖了程序开发的方方面面
+* [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 *   …待完善
 
 ### Notes
