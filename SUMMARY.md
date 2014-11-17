@@ -30,7 +30,7 @@
    * [Linux](chapter7-textbooks/linux.md)
    * [GUI](chapter7-textbooks/gui.md)
    * [Android开发](chapter7-textbooks/android.md)
-   * [数据挖掘](chapter7-textbooks/data-mining.md)
+   * [数据挖掘与分析](chapter7-textbooks/data-mining.md)
    * [Spark](chapter7-textbooks/spark.md)
    * [杂项](chapter7-textbooks/misc.md)
 
