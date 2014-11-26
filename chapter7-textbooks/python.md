@@ -15,4 +15,6 @@
 * [Pythoner | 你像从前一样的Python学习笔记](http://www.pythoner.com/) - 一系列与Python有关的原创笔记。
 * [啄木鸟社区Wiki](http://wiki.woodpecker.org.cn/moin/) - 国内一个关于Python介绍及相关学习非常全面的一个网站。
 * [优秀Python学习资源收集汇总 - Alexia(minmin)](http://www.cnblogs.com/lanxuezaipiao/p/3543658.html)
+* [revolunet/PythonBooks](https://github.com/revolunet/PythonBooks) - Directory of free Python ebooks, 部分书籍有点老。
 * [Presentations by PyCon 2014 // Speaker Deck](https://speakerdeck.com/pycon2014) - Pycon 2014国外的一些分享。
+* [IPython Notebook: 交互计算新时代 | Mind on Mind](http://mindonmind.github.io/2013/02/08/ipython-notebook-interactive-computing-new-era/)

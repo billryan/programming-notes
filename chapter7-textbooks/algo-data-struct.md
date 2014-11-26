@@ -46,6 +46,11 @@ C和C++的算法实现是 Robert Sedgewick较为早期的大作，虽然名气�
 
 ## OJ
 
+* [一些主流的编程竞赛网站 - 灵魂机器](http://cn.soulmachine.me/blog/20130322/) - 对各OJ进行了对比。
+* [USA Computing Olympiad](http://www.usaco.org/)
+* [qiwsir/algorithm](https://github.com/qiwsir/algorithm) - 老齐收集的一些算法题，大量使用Python
+
+
 **待完善**
 
 Online Judge系统（简称OJ）是一个在线的判题系统。用户可以在线提交程序多种程序（如C、C++、Pascal）源代码，系统对源代码进行编译和执行，并通过预先设计的测试数据来检验程序源代码的正确性。[2]
