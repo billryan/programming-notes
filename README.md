@@ -1,6 +1,6 @@
 # 前言
 
-弹指之间，从我开始接触编程至今已五年有余，从大一的懵懂少年到现在对计算机编程的一知半解,其中经历的酸甜苦辣实在是太多太多，不是一两句话就能说清楚的，这本小书在某种程度上也可以认为是我在学习计算机编程过程中的一些笔记。在线阅读页面见[计算机编程导论之FAQ](http://billryan.gitbooks.io/programming-notes/)，在线托管网址见 [billryan/programming-notes](https://github.com/billryan/programming-notes)，gitbook/github 大法好！
+弹指之间，从我开始接触编程至今已五年有余，从大一刚接触C语言到现在对计算机编程的一知半解，其中曲折坎坷一言难尽，这本小书在某种程度上也可以认为是我在学习计算机编程过程中的一些笔记。在线阅读页面见[计算机编程导论之FAQ](http://prog-notes.yuanbin.me)，在线托管网址见 [billryan/programming-notes](https://github.com/billryan/programming-notes)，gitbook/github 大法好！
 
 ## 简介
 
@@ -44,8 +44,8 @@ FAQ——Frequently Asked Questions，也就是常见问题解答。这玩意儿
   <dt>Blue Auris</dt>
   <dd>中文昵称：碧蓝右耳，本书的原材料创作者，前言中提到的 C/C++ FAQ 正是出自他之手，我只是做了大量的组织和整合。可以说，没有他的 C/C++ FAQ 就没有这个合辑，谨在此致以崇高的敬意！</dd>
 
-  <dt>[Bill Ryan](http://billryan.me)</dt>
-  <dd>本书的发起者与主力作者之一，也是一位伪编程菜鸟，热爱计算机给人类生活所带来的便利和美。</dd>
+  <dt>[Bill Ryan (袁斌)](http://www.yuanbin.me)</dt>
+  <dd>本书的发起者与主力作者之一，也是一位伪编程菜鸟，热爱计算机给人类生活所带来的便利和美。目前还在上海交大读研，退EE保平安ing...</dd>
 
   <dt>Everyone</dt>
   <dd>本书的最终完善者，没有大家的努力与汗水就没有这个优质的文档。</dd>
