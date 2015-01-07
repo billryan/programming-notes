@@ -7,8 +7,8 @@
         "disqus": {
             "shortName": "prog-notes"
         },
-		"ga": {
-			"token": "UA-29124639-6"
-		}
+        "ga": {
+            "token": "UA-29124639-6"
+        }
     }
 }
