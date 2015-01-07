@@ -1,10 +1,14 @@
 {
     "plugins": [
-        "disqus"
+        "disqus",
+		"ga"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "prog-notes"
-        }
+        },
+		"ga": {
+			"token": "UA-29124639-6"
+		}
     }
 }
