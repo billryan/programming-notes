@@ -26,7 +26,7 @@ Amazon/亚马逊和 [Google Books](http://books.google.com/) 的书籍通常可�
 最近想要下载到有版权的书籍是越来越难了，各大国内网盘的公开分享纷纷叫停，形势是越来越严峻，但是漏网之鱼总还是有的。
 
 * 国内大家网论坛的[计算机专区](http://club.topsage.com/forum.php?gid=2)有不少经典教材的高清影印版。
-* [Library Genesis](http://libgen.org/)，一些下载不到的英文原版教材这里可以下载到，缺点是速度很慢，用国外的VPS也许能好点。
+* [Library Genesis](http://libgen.org/)，http://gen.lib.rus.ec, http://free-books.us.to, http://ebookfi.org, http://libgen.info, http://bookos.org/ 一些下载不到的英文原版教材这里可以下载到，缺点是速度很慢，用国外的VPS也许能好点。
 * [网盘搜索，盘搜一下](http://www.pansou.com/)，整合了国内和国外诸多网盘的文件索引，简直是丧心病狂！
 * [皮皮书屋](http://www.ppurl.com/)，有很多不错的电子书。
 * [mLook 精校电子书](http://mlook.mobi/)，有豆瓣插件，里边有很多质量很高的各类电子书，很多都是对Kindle友好的mobi格式。不过现在已经封闭公开注册了。
