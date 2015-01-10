@@ -6,9 +6,6 @@
 
 
 
-## Notes
-
-
 ### IDE vs Terminal
 
 * * * * *
