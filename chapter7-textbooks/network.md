@@ -21,5 +21,5 @@
 
 ## 其它补充
 
-* [downloads/TCPIP网络编程之四书五经.pdf]] - 2003年《程序员》杂志上孟岩写的一篇书评。
-* [downloads/LearningNetworkProgramming.pdf]] - 陈硕写的『谈一谈网络编程学习经验』，原文链接可见 [谈一谈网络编程学习经验(06-08更新)](http://blog.csdn.net/solstice/article/details/6527585)。作者在网络编程方面还是比较有经验的，已有书籍 [Linux多线程服务端编程](http://book.douban.com/subject/20471211/) 出版，里面有不少干货。
+* [downloads/TCPIP网络编程之四书五经.pdf] - 2003年《程序员》杂志上孟岩写的一篇书评。
+* [downloads/LearningNetworkProgramming.pdf] - 陈硕写的『谈一谈网络编程学习经验』，原文链接可见 [谈一谈网络编程学习经验(06-08更新)](http://blog.csdn.net/solstice/article/details/6527585)。作者在网络编程方面还是比较有经验的，已有书籍 [Linux多线程服务端编程](http://book.douban.com/subject/20471211/) 出版，里面有不少干货。
