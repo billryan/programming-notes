@@ -2,14 +2,17 @@
 
 ## 算法 & 面试
 
+- [各类题解 - Acm之家,专业的ACM学习网站](http://www.acmerblog.com/)
 - [有哪些学习算法的网站推荐？ - 知乎](http://www.zhihu.com/question/20368410)
-- [九章算法 | 帮助更多的中国人找到好工作，美国硅谷一线工程师实时在线授课, Facebook/Google工程师为你传授面试技巧](http://www.ninechapter.com/)
+- [九章算法 | 帮助更多的中国人找到好工作，美国硅谷一线工程师实时在线授课](http://www.ninechapter.com/)
 - [七月算法 - julyedu.com](http://julyedu.com/)
 - [Woodstock Blog](http://okckd.github.io/) - IT，算法及面试。有知识点及类型题总结
-- [leetcode题解-C++实现](downloads/leetcode-cpp.pdf)
+- [leetcode题解 - C++实现](downloads/leetcode-cpp.pdf)
+- [LeetCode题解 - GitBook](https://www.gitbook.com/book/siddontang/leetcode-solution/details)
 - [结构之法 算法之道](http://blog.csdn.net/v_JULY_v)
 - [julycoding/The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 - [程序员面试、算法研究、编程艺术、红黑树、数据挖掘5大系列集锦](http://blog.csdn.net/v_july_v/article/details/6543438)
+- [POJ的部分题解 - Category: POJ | Beeder's Blog](http://beeder.me/categories/POJ/)
 
 ### 其它
 
