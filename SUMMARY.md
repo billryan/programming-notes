@@ -17,6 +17,7 @@
    * [编程开发](chapter6-useful-tools/ide-vs-terminal.md)
 * [第七章-教材推荐及其它](chapter7-textbooks/README.md)
    * [数据结构与算法类](chapter7-textbooks/algo-data-struct.md)
+   * [Operating System](chapter7-textbooks/operating_system.md)
    * [C](chapter7-textbooks/c-programming.md)
    * [C++](chapter7-textbooks/c-plusplus.md)
    * [Java](chapter7-textbooks/java.md)
