@@ -39,6 +39,7 @@
 - [酷壳](http://coolshell.cn) - 享受编程和技术带来的快乐
 - [老齐的技术资料](https://github.com/qiwsir/ITArticles) - 涵盖了程序开发的方方面面
 - [shell909090/slides-一些很不错的分享](https://github.com/shell909090/slides)
+- [Deep learning：四十三(用Hessian Free方法训练Deep Network) - tornadomeet - 博客园](http://www.cnblogs.com/tornadomeet/p/3267454.html) - 博主写了很多机器学习方面的博文，几乎都有参考链接，可读性比较好。
 
 
 ### Notes
