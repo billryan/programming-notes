@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Part I Introduction to Programming](part_i_introduction_to_programming/README.md)
 * [第一章-编程所谓何物](chapter1-what-is-programming/README.md)
 * [第二章-咋学编程](chapter2-how-to-learn-programming/README.md)
 * [第三章-编程进阶-数据结构与算法](chapter3-advanced-programming-part1/README.md)
@@ -34,4 +35,11 @@
    * [数据挖掘与分析](chapter7-textbooks/data-mining.md)
    * [Spark](chapter7-textbooks/spark.md)
    * [杂项](chapter7-textbooks/misc.md)
+* [Part II Programming Notes](part_ii_programming_notes/README)
+* [C++ Notes](cplusplus_notes/README.md)
+   * [vector](cplusplus_notes/vector.md)
+   * [variable](cplusplus_notes/variable.md)
+   * [const](cplusplus_notes/const.md)
+* [Database](database/README.md)
+   * [MySQL](database/mysql.md)
 
