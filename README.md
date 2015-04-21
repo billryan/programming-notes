@@ -1,6 +1,6 @@
 # 编程笔记 By billryan
 
-[![Build Status](https://travis-ci.org/billryan/algorithm-exercise.svg?branch=master)](https://travis-ci.org/billryan/algorithm-exercise)
+[![Build Status](https://travis-ci.org/billryan/programming-notes.svg?branch=master)](https://travis-ci.org/billryan/programming-notes)
 
 弹指之间，从我开始接触编程至今已五年有余，从大一刚接触 C 语言到现在对计算机编程的一知半解，其中曲折坎坷一言难尽，这本在线笔记记录了我在学习计算机编程过程中的点点滴滴。
 
