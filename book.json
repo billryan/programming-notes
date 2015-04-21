@@ -1,7 +1,10 @@
 {
     "plugins": [
         "disqus",
-        "ga"
+        "ga",
+        "yahei",
+        "katex",
+        "richquotes"
     ],
     "pluginsConfig": {
         "disqus": {
