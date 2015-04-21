@@ -12,7 +12,7 @@ before_install:
   - npm install gitbook-cli -g
   # Clone the repository
   - cd ~
-  - git clone --depth=10 --branch=master git@github.com:billryan/programming-notes.git
+  - git clone --depth=10 --branch=master git://github.com:billryan/programming-notes.git
 
 before_script:
   # install calibre latest version
