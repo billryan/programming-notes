@@ -222,3 +222,204 @@ mysql> SELECT prod_desc, prod_name, prod_price
 ```
 
 MySQL 中 NOT 可以对 IN, BETWEEN, EXISTS 子句取反，不是对所有条件都可以取反。
+
+## 用通配符进行过滤
+
+### LIKE 操作符
+
+前面的章节中所有操作符均是针对已知值进行过滤，有时需要过滤不确定值就需要使用 LIKE 操作符了。
+
+术语：
+
+- 通配符(wildcard) 用来匹配值的一部分的特殊字符。
+- 搜索模式(search pattern) 由字面值、通配符或者两者组合构成的搜索条件。
+
+在搜索子句中使用通配符必须使用 LIKE 操作符，LIKE 指示 MySQL 后面的搜索模式利用通配符而不是直接相等匹配。通配符 % 表示0个或者多个字符，注意及时可表示0个字符，但也无法匹配到`NULL`.
+
+```mysql
+mysql> SELECT prod_id, prod_name
+    -> FROM products
+    -> WHERE prod_name LIKE 'jet%';
+```
+
+> 可以对 MySQL 进行配置使其搜索区分大小写。
+
+通配符不仅可以用于搜索模式的结尾，还可用于其他任意位置，多个通配符可以同时使用。
+
+```mysql
+mysql> SELECT prod_id, prod_name
+    -> FROM products
+    -> WHERE prod_name LIKE '%anvil%';
+```
+
+#### 下划线(_) 通配符
+
+下划线只匹配单个而不是多个字符，也不是0个字符。
+
+```mysql
+mysql> SELECT prod_id, prod_name
+    -> FROM products
+    -> WHERE prod_name LIKE '_ ton anvil';
+```
+
+通配符虽好，但也不应过度使用，因为其搜索起来比直接搜索慢。
+
+## 用正则表达式进行搜索
+
+### 使用 MySQL 正则表达式
+
+#### 基本字符匹配
+
+检索列`prod_name` 包含文本.000的所有行：
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXP '.000'
+    -> ORDER BY prod_name;
+```
+
+`.` 表示匹配任意一个字符，1000和2000都能匹配且返回。
+
+使用 REGEXP 替代了 LIKE, REGEXP 和 LIKE 的区别在于 LIKE 匹配整个列，如果匹配不完全则不返回结果；而 REGEXP 在列值内进行匹配。
+
+MySQL 中的正则表达式自3.23.4版本以后不再区分大小写，但是可以 BINARY 关键字指定。
+
+```sql
+WHERE prod_name REGEXP BINARY 'JetPack .000'
+```
+
+#### OR 匹配
+
+正则表达式中使用一个或多个`|` 进行 OR 匹配，和 OR 使用效果相同，更为方便。
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXP '1000|2000'
+    -> ORDER BY prod_name;
+```
+
+#### 匹配几个字符之一
+
+匹配任一特定一组字符中的一个字符，使用'[' 和 `]` 括起来。
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXp '[123] Ton'
+    -> ORDER BY prod_name;
+```
+
+`[123]`和`[1|2|3]`等价，但是显然前者更为方便。除了正向匹配字符集，我们还可对字符集之外的元素进行匹配，如`[^123]` 能匹配除了1,2,3之外的字符。
+
+#### 匹配范围
+
+虽然使用类似`[123]` 的集合方式能简化多次使用 OR 操作符，但是还可对其进一步简化以处理连续的数字或者字符序列。如使用`[0-9]` 简化`[0123456789]`这种数字列表。
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXP '[1-5] Ton'
+    -> ORDER BY prod_name;
+```
+
+#### 匹配特殊字符
+
+对于特殊字符的匹配，容易想到的方案为使用转义序列，MySQL 中使用`\\`作为前导序列。
+
+```mysql
+mysql> SELECT vend_name
+    -> FROM vendors
+    -> WHERE vend_name REGEXP '\\.'
+    -> ORDER BY vend_name;
+```
+
+通常的正则表达式使用一个反斜杠转移字符，MySQL 中要求两个，原因在于 MySQL 自己解释一个，正则表达式解释另一个。
+
+#### 匹配字符类
+
+为了方便常用的匹配模式，我们可以使用预定义的字符集来简化日常的匹配语法。MySQL 中这些预定义的字符集也称为字符类(character class).
+
+#### 匹配多个实例
+
+```
+* 0个或多个匹配
++ 1个或多个匹配（等于{1,}）
+? 0个或1个匹配（等于{0, 1}）
+{n} 指定数目的匹配
+{n,} 不少于指定数目的匹配
+{n,m} 匹配数目的范围 {m 不超过255}
+```
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXP '\\([0-9] sticks?\\)'
+    -> ORDER BY prod_name;
+```
+
+```mysql
+mysql> SELECT prod_name
+    -> FROM products
+    -> WHERE prod_name REGEXP '[[:digit:]]{4}'
+    -> ORDER BY prod_name;
+```
+
+#### 定位符
+
+```
+^   文本的开始
+$   文本的结尾
+[[:<:]] 词的开始
+[[:>:]] 词的结尾
+```
+
+> **Note** ^有两种用法，在集合中(用[和]定义)用来否定该集合，否则用来指串的开始处。
+
+REGEXP 和 LIKE，LIKE 匹配整个串而 REGEXP 匹配子串。但是通过定位符^和$可使 REGEXP 作用和 LIKE 一样。
+
+对正则表达式进行测试：`SELECT 'hello' REGEXP '[0-9]';`
+
+## 创建计算字段
+
+### 计算字段
+
+计算字段的作用：有时我们需要直接从数据库中检索出转换、计算或格式化过的数据，而不是检索出数据。
+
+> 字段(field): 基本上与列(column)意义相同，字段通常用在计算字段的连接上。
+
+> 拼接(concatenate): 将值联结到一起构成单个值。
+
+多数 DBMS 使用 + 或||来实现拼接，MySQL 则使用 `Concat()` 函数来实现。
+
+```mysql
+mysql> SELECT Concat(vend_name, ' (', vend_country, ')')
+    -> FROM vendors
+    -> ORDER BY vend_name;
+```
+`Concat`需要一个或多个指定的串，各个串之间用逗号分隔。
+
+`Trim()`: 去掉串左右两边的空格
+`RTrim()`: 去掉串右边的空格
+`LTrim()`: 去掉串左边的空格
+
+由于拼接后的新列只是一个值而无法引用，故 SQL 中使用 AS 关键字赋予列别名，别名也称导出列(derived column).
+
+```mysql
+mysql> SELECT Concat(RTrim(vend_name), ' (', RTrim(vend_country), ')') AS
+    -> vend_title
+    -> FROM vendors
+    -> ORDER BY vend_name;
+```
+
+### 执行算术计算
+
+```mysql
+mysql> SELECT prod_id, quantity, item_price,
+    -> quantity * item_price AS expanded_price
+    -> FROM orderitems
+    -> WHERE order_num = 20005;
+```
+
+输出中显示的`expanded_price`为计算字段。
