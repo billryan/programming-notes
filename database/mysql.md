@@ -423,3 +423,7 @@ mysql> SELECT prod_id, quantity, item_price,
 ```
 
 输出中显示的`expanded_price`为计算字段。
+
+## 使用数据处理函数
+
+
