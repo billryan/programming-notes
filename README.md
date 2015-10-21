@@ -13,10 +13,11 @@
     3. 离线html. [七牛](http://docs4bill.qiniudn.com/doc/programming_notes_billryan_html.tar.gz) - 解压后即为整个网站的内容，用于本地查看，目前内容更新频繁，不推荐下载。
     4. PDF. [Gitbook](https://www.gitbook.com/download/pdf/book/yuanbin/programming-notes), [七牛- 适合打印版](http://docs4bill.qiniudn.com/doc/programming_notes_billryan_print.pdf) - Recommended for Desktop. 推荐下载七牛的版本。
     5. MOBI. [Gitbook](https://www.gitbook.com/download/mobi/book/yuanbin/programming-notes), [七牛](http://docs4bill.qiniudn.com/doc/programming_notes_billryan.mobi) - Recommended for Kindle. 未测试，感觉不适合在 Kindle 上看此类书籍，尽管 Kindle 的屏幕对眼睛很好...
-- 全文大体上分为两大部分。
+- 全文大体上分为三大部分。
     1. 第一部分为 Part I Introduction to Programming, 是对计算机编程相对宏观的介绍，前身为「碧蓝右耳」07年发布的 [C/C++ FAQ](http://www.vcgood.com/BBS/forum_posts.asp?TID=1559)，我在此基础上做了大量的整合，以便适应如今蓬勃发展的计算机浪潮。
-    2. 第二部分为 Part II Programming Notes, 是自己学习编程过程中的笔记，有语言特性，也有操作系统底层细节，还有一些专业软件等工具的使用小结。总之第二部分是比较杂啦，没有第一部分那么系统，偏向于个人笔记，摘抄的内容较多，所以第二部分不在下述公用创作协议授权范围之类，如果有你觉得不合适公开的内容，还请直接在相应页面下留言。
-- 广而告之：本书的姊妹篇——[leetcode题解/算法笔记 | Data Structure and Algorithm](http://algorithm.yuanbin.me/) 也在火热更新中~
+    2. 第二部分为一些方法论的介绍。
+    3. 相关编程资料的总结。
+- 广而告之：本书的姊妹篇——[数据结构与算法/leetcode/lintcode题解](http://algorithm.yuanbin.me/) 也在火热更新中~
 
 第一部分浅析了一些计算机编程背后蕴含的思想，同时提供了不少方法论层面上的技巧——形而下者是也。目的是希望能为大家从全局去把握编程提供一定的思路，不为细节所困。本书是一篇散文，形散神不散——以编程为神，以各章节为形；它同时又是一篇科普文章，读起来自然不难理解，甚至是轻松幽默的，不过也不要对这本书期望过高，Part I 是从一个初学者/非 CS 专业学生的角度去感悟计算机编程的，功力自然是比不过各路大神大牛。
 

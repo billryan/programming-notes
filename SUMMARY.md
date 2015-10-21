@@ -35,13 +35,3 @@
    * [数据挖掘与分析](chapter7-textbooks/data-mining.md)
    * [Spark](chapter7-textbooks/spark.md)
    * [杂项](chapter7-textbooks/misc.md)
-* [Part II Programming Notes](part_ii_programming_notes/README.md)
-* [C++ Notes](cplusplus_notes/README.md)
-   * [vector](cplusplus_notes/vector.md)
-   * [variable](cplusplus_notes/variable.md)
-   * [const](cplusplus_notes/const.md)
-* [Database](database/README.md)
-   * [MySQL](database/mysql.md)
-* [OS Notes](os_notes/README.md)
-   * [fork](os_notes/fork.md)
-
