@@ -1,37 +1,45 @@
 # Java
 
-## [疯狂Java讲义 (豆瓣)](http://book.douban.com/subject/10436048/)
+## 初阶读物
 
-作者：李刚
-
-之所以把这本书放在NO.1当然不是因为作者是李刚... 囧，而是因为本书确实比较适合大部分Java初学者使用，讲解全面、细致。内容安排也和平时上课类似，读起来比较轻松，某些言语表达似乎有点疯狂，书中有不少案例学习的例子，到底适不适合你就要看个人接收知识的方式喽。
-
-## Head First Java
+### Head First Java
 
 Author: Bert Bates, Kathy Sierra
 
-中文书名：[Head First Java（中文版） (豆瓣)](http://book.douban.com/subject/2000732/)
+中文书名：[Head First Java（中文版）](http://book.douban.com/subject/2000732/)
 
-Head First系列中比较有影响力的一本书，各种插图比较多，所以读起来没有一般技术类书籍那么乏味。优点是适合入门，缺点就是——仅适合入门。
+Head First系列中比较有影响力的一本书，各种插图比较多，所以读起来没有一般技术类书籍那么乏味。优点是适合入门。
+
+### Core Java™, Volume I–Fundamentals
+
+中文书名：[Java核心技术·卷1：基础知识](http://book.douban.com/subject/25762168/)
+
+非常非常基础，不过可能没有 Head 系列那么有趣。
+
+### [Intro to Java Programming, Comprehensive Version (10th Edition)](http://www.amazon.com/Intro-Java-Programming-Comprehensive-Version/dp/0133761312/ref=sr_1_1?ie=UTF8&qid=1451052402&sr=8-1&keywords=Introduction+to+Java+Programming)
+
+中文书名：[Java语言程序设计](http://book.douban.com/subject/6952199/)
+
+巨厚的一本书，讲解超详细，尤其是基础算法和排序一章，非常经典！
+
+## 进阶读物
 
 ### Thinking in Java 4th edition
 
 Author: Bruce Eckel
 
-中文书名：[Java编程思想 （第4版） (豆瓣)](http://book.douban.com/subject/2130190/)
+中文书名：[Java编程思想 （第4版）](http://book.douban.com/subject/2130190/)
 
-书如其名——已经上升到了Thinking的层次了，有些人说它适合入门，有些人说它适合进阶，就普遍而言，国外的教材内容即使有深度，一般也不会让读者读起来晦涩难懂，这本书（英文原版）给我的感觉是讲解清晰，又不失深度。听说中文翻译过来的不太好，我没敢去碰，不好在这里评价。
+书如其名——已经上升到了 Thinking 的层次了，适合对语言有一定了解或者有一定计算机编程功底的人看。这本书给我的感觉是讲解清晰，又不失深度。~~听说中文翻译过来的不太好，我没敢去碰，不好在这里评价。~~中文版翻译质量还行，纸张虽然薄了一点，不过好像比较耐翻，可以购买。
 
-### Core Java™, Volume I–Fundamentals 8th edition
+### Core Java™, Volume II–Advanced Features
 
-中文书名：[Java核心技术·卷1：基础知识（原书第9版） (豆瓣)](http://book.douban.com/subject/25762168/)
+中文书名：[Java核心技术（卷2）：高级特性](http://book.douban.com/subject/25841326/)
 
-### Core Java™, Volume II–Advanced Features 8th edition
-
-中文书名：[Java核心技术（卷2）：高级特性（原书第9版） (豆瓣)](http://book.douban.com/subject/25841326/)
-
-如果说Thinking in Java侧重于思维分析的话，那么这两本则侧重于Java技术应用的讲解。与Thinking in Java齐名的Java技术书。
-
-### [Effective Java (豆瓣)](http://book.douban.com/subject/3998727/)
+### [Effective Java](http://book.douban.com/subject/3998727/)
 
 Effective系列的书籍，我就不多介绍了，**进阶用**。
+
+### [深入理解Java虚拟机（第2版）](http://book.douban.com/subject/24722612/)
+
+JVM 解析的国人经典之作，不只是 JVM 文档的简单翻译，细节讲的非常好。
